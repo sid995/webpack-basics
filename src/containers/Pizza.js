@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PizzaImage from '../componenets/PizzaImage/PizzaImage'
 
-export default class Pizza extends ({ Component }) {
+export default class Pizza extends Component {
   render() {
     return (
       <div>
